@@ -17,6 +17,7 @@ namespace Corporate_law_corvaxss14
                 { "xx3", 15 },
                 { "xx4", 25 },
                 { "xx5", -1 }, // Пожизненное
+<<<<<<< HEAD
                 { "xx6", -2 },  // Казнь
                 { "Преступление против должностного лица", 10},
                 { "Расизм", 10},
@@ -24,11 +25,18 @@ namespace Corporate_law_corvaxss14
                 //{ "Явка с повинной", -5},
                 { "Организатор", 10},
                 //{ "Неосторожность", -5}
+=======
+                { "xx6", -2 }  // Казнь
+>>>>>>> 41d4675ca4e0e72b9c58ffc82f13b43b011a6e98
             };
             List<string> selectedArticles = new List<string>();
             string input;
 
+<<<<<<< HEAD
             Console.WriteLine("Введите группы статей (Статьи: 'xx1', 'xx2', 'xx3', 'xx4', 'xx5', 'xx6'; модификаторы: 'Преступление против должностного лица', 'Рецидив', 'Организатор'). Введите 'стоп' для завершения ввода:");
+=======
+            Console.WriteLine("Введите группы статей ('xx1', 'xx2', 'xx3', 'xx4', 'xx5', 'xx6'). Введите 'стоп' для завершения ввода:");
+>>>>>>> 41d4675ca4e0e72b9c58ffc82f13b43b011a6e98
             
             while (true)
             {
@@ -66,11 +74,14 @@ namespace Corporate_law_corvaxss14
                     {
                         Console.WriteLine("Выбрано: Казнь");
                     }
+<<<<<<< HEAD
 
                     //if (totalTime < 6)
                     //{
                     //    Console.WriteLine("Замените срок на предупреждение");
                     //}
+=======
+>>>>>>> 41d4675ca4e0e72b9c58ffc82f13b43b011a6e98
                 }
                 Console.WriteLine($"Общее время заключения: {totalTime} минут");
             }
